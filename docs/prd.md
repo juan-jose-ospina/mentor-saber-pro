@@ -67,5 +67,5 @@ Para considerar que el Producto Mínimo Viable (MVP) es exitoso durante la demos
 
 ## 6. Restricciones del Producto
 
-- **Costo Cero:** El producto debe operar exclusivamente con APIs gratuitas (Google AI Studio - Gemini 1.5 Flash) y librerías Open Source locales (ChromaDB, LangChain, Streamlit).
+- **Costo Cero:** El producto debe operar exclusivamente con APIs gratuitas (Google AI Studio - Gemini 3.5 Flash) y librerías Open Source locales (ChromaDB, LangChain, Streamlit).
 - **Ausencia de Nube Base de Datos:** Por restricciones de arquitectura de la entrega, no se utilizarán bases de datos persistentes en la nube para guardar el progreso histórico del usuario entre sesiones distintas. Todo el estado se maneja en la memoria de la sesión actual mediante LangGraph y Streamlit.
