@@ -27,7 +27,7 @@ El agente programador deberá utilizar estrictamente las siguientes tecnologías
 - **Lenguaje:** Python 3.11+
 - **Interfaz de Usuario:** Streamlit (`streamlit`)
 - **Orquestador Multiagente:** LangGraph (`langgraph`, `langchain-core`)
-- **LLM Principal:** Gemini 1.5 Flash vía Google AI Studio (`langchain-google-genai`)
+- **LLM Principal:** Gemini 3.5 Flash vía Google AI Studio (`langchain-google-genai`)
 - **Base de Datos Vectorial:** ChromaDB en modo embedded (`langchain-chroma`)
 - **Embeddings:** `nomic-embed-text-v1.5` vía `sentence-transformers` (`langchain-huggingface`)
 - **Re-ranking (Cross-Encoder):** `ms-marco-MiniLM-L-6-v2` (opcionalmente integrado con `sentence-transformers`)

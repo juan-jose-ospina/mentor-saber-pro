@@ -1,0 +1,37 @@
+# ============================================================
+# Mentor Saber Pro – Requirements
+# Stack obligatorio según SRS §2.1
+# ============================================================
+
+# ── Interfaz de usuario ──────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Orquestación multiagente ─────────────────────────────────
+langgraph>=0.2.0
+langchain-core>=0.3.0
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# ── LLM – Google Gemini ──────────────────────────────────────
+langchain-google-genai>=2.0.0
+
+# ── Base de datos vectorial ──────────────────────────────────
+langchain-chroma>=0.1.4
+chromadb>=0.5.0
+
+# ── Embeddings locales (nomic-embed-text-v1.5) ───────────────
+langchain-huggingface>=0.1.0
+sentence-transformers>=3.0.0
+
+# ── Procesamiento de PDFs ────────────────────────────────────
+pymupdf>=1.24.0
+
+# ── Generación de reportes PDF ───────────────────────────────
+reportlab>=4.2.0
+
+# ── Herramienta de profundidad de imagen (ZoeDepth) ─────────
+ einops>=0.7.0
+
+ # ── Requisitos adicionales ─────────────────────────────────────────
+ langchain-google-genai>=1.65.0
